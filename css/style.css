@@ -1,0 +1,157 @@
+*{ padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    line-height: 1;
+    width: 100%;
+    height: 100vh;
+    background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.nav-bar{
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-logo{
+    max-width: 10px;
+
+}
+.nav-logo2{
+    width: 70px;
+    height: 50px;
+
+}
+.nav-list{
+    margin-top: 30px;
+    
+    max-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+  
+    display: flex;
+    margin-left: 30px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container{
+    margin-left: 15%;
+    max-width: 1080px;
+  
+}
+.group-card1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 16px;
+    margin: 1px solid black;
+}
+.card-exer1{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background: #8EC5FC;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+
+}
+.card-exer{
+    background: #E0C3FC;
+    color:#222220;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 2rem 1.3rem 2rem 2rem;
+    transition: all .9s ease 0s;
+}
+.card-exer1:hover .card-exer{
+    opacity: 1;
+}
+.card-exer2{
+    width: 300px;
+    height: 300px;
+    background: #8EC5FC;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+      border: 1px solid black;
+
+}
+.card-exer2:hover .card-exer{
+    opacity: 1;
+
+}
+.group-card2{    
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 16px;
+    }
+.card-exer3{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background: #8EC5FC;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+
+}
+.card-exer3:hover .card-exer{
+    opacity: 1;
+    
+}
+.card-exer4{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    background: #8EC5FC;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+
+}
+.card-exer4:hover .card-exer{
+    opacity: 1;
+}
+.group-card3{   
+     display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 16px;
+   }
+.card-exer5{
+    width: 300px;
+    height: 300px;
+    background: #8EC5FC;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+      border: 1px solid black;;
+
+}
+.card-exer5:hover .card-exer{
+    opacity: 1;
+}
